@@ -1,16 +1,67 @@
 ---
-
+import HeaderJared from "../componentesHtml/HeaderJared.astro"
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>b</h1>
-	</body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<title>Jared blog</title>
+</head>
+<body class="bg-black">
+<div class="conatiner m-4 ">
+	<HeaderJared/>
+	<div class="container">
+		<div class="content card card-content mt-2 p-2 bg-primary ">
+			<div class="card-header border border-info p-3 rounded-pill">
+				<h4 class="text-center text-white">Bienvendo a mi pagina personal</h4>
+			</div>
+			<div class="card-body mt-2 border border-info "  >
+				<p class="text-justify text-white text-break" >
+					La información que se maneja aqui no es confidencial, pero es muy personal y sensible para mi que soy el administrador y creador por otro lado todos los puntos son tratados desde la perspectiva que tengo acerca de cada tema, es decir de todo lo que he podido estudiar y buscar a lo largo o corto de mi aprendizaje es mas una opinion de caracter personal. Los sitios oficiales de las tecnologias web que he utilizado y aprendido poco a poco son:
+					<ul>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> NodeJs</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> JavaScript</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> React</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> Astro</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> NextJs</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> Angular</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> Ionic</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> Java</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> MYSQL</a>
+						</li>
+						<li>
+							<a class="text-white" href="">Leé más información sobre -> Postgresql</a>
+						</li>
+					</ul>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+	
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
